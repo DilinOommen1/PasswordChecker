@@ -3,7 +3,7 @@ import re
 def check_passwordstrength(password):
     pass_strength=0
     change = []
-
+    
     if len(password) >= 12:
         pass_strength +=1
     else:
